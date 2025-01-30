@@ -3,7 +3,7 @@
 This repository contains the code and models used for Task 4 (Political Sentiment Analysis) in the **NAACL DravidaLangTech 2025** competition. The objective of this task is to classify political sentiment in Tamil code-mixed tweets.
 
 ## 📌 Project Overview  
-The dataset consists of code-mixed Dravidian text labeled for political sentiment (7 classes). Various machine learning and deep learning models have been explored to achieve the best classification performance.
+The dataset consists of code-mixed Dravidian text labeled for political sentiment (7 classes). Various machine learning and deep learning models have been explored to achieve the best classification performance. Datasets used are available in the dat folder. The fine tuning codes are available in the transformer models folder.
 
 ## 🚀 Best Performing Model  
 The best-performing model in this project is **LaBSE + SVM**, which achieved the highest F1 Score among all tested approaches.
@@ -12,23 +12,27 @@ The best-performing model in this project is **LaBSE + SVM**, which achieved the
 
 ```
 📦 Project Root  
-  ┣ 📜 .gitignore  
-  ┣ 📜 bert_base_cased.ipynb     # Fine-tuned BERT-base-cased for classification  
-  ┣ 📜 cleaned_PS_train.csv      # Preprocessed training dataset  
-  ┣ 📜 cleaned_PS_dev.csv        # Preprocessed validation dataset  
-  ┣ 📜 cleaned_PS_test.csv       # Preprocessed test dataset  
-  ┣ 📜 fasttext.ipynb            # FastText-based classification  
-  ┣ 📜 indic_bert.ipynb          # IndicBERT fine-tuning  
-  ┣ 📜 indic_bert_nohashtag.ipynb # IndicBERT without hashtags  
-  ┣ 📜 muril_nohashtag.ipynb     # MuRIL without hashtags  
-  ┣ 📜 preprocess.ipynb          # Data preprocessing pipeline  
-  ┣ 📜 PS_train.csv              # Original training dataset  
-  ┣ 📜 PS_dev.csv                # Original validation dataset  
-  ┣ 📜 PS_test_without_labels.csv # Test dataset without labels  
-  ┣ 📜 submission.csv            # Final submission file  
-  ┣ 📜 svm_sbert.ipynb           # SVM model using SBERT embeddings  
-  ┣ 📜 tamil_sbert_nohashtag.ipynb # Tamil SBERT without hashtags  
+ ┣ 📂 Data/  
+ ┃ ┣ 📜 cleaned_PS_train.csv        # Preprocessed training dataset
+ ┃ ┣ 📜 cleaned_PS_dev.csv          # Preprocessed validation dataset
+ ┃ ┣ 📜 cleaned_PS_test.csv         # Preprocessed test dataset
+ ┃ ┣ 📜 PS_train.csv                # Original training dataset  
+ ┃ ┣ 📜 PS_dev.csv                  # Original training dataset  
+ ┃ ┣ 📜 PS_test_without_labels.csv  # Original test dataset with no labels
+ ┃ ┗ 📜 submission.csv              # Final submission file
+ ┃ 📂 Transformer Models/  
+ ┃ ┣ 📜 bert_base_cased.ipynb       # Fine-tuned BERT-base-cased for classification  
+ ┃ ┣ 📜 indic_bert.ipynb            # IndicBERT fine-tuning  
+ ┃ ┣ 📜 indic_bert_nohashtag.ipynb  # IndicBERT without hashtags    
+ ┃ ┣ 📜 muril_nohashtag.ipynb       # MuRIL without hashtags  
+ ┃ ┗ 📜 tamil_sbert_nohashtag.ipynb # Tamil SBERT without hashtags  
+ ┣ 📜 .gitignore  
+ ┣ 📜 fasttext.ipynb                # FastText-based classification
+ ┣ 📜 preprocess.ipynb              # Data preprocessing pipeline
+ ┣ 📜 requirements.txt              # Python requirements
+ ┗ 📜 svm.ipynb                     # SVM model using transformer embeddings  
 ```
+
 
 ## 🏆 Models Used  
 
