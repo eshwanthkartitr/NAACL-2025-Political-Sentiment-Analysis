@@ -12,22 +12,22 @@ The best-performing model in this project is **LaBSE + SVM**, which achieved the
 
 ```
 📦 Project Root  
- ┃ ┣ 📜 .gitignore  
- ┃ ┣ 📜 bert_base_cased.ipynb     # Fine-tuned BERT-base-cased for classification  
- ┃ ┣ 📜 cleaned_PS_train.csv      # Preprocessed training dataset  
- ┃ ┣ 📜 cleaned_PS_dev.csv        # Preprocessed validation dataset  
- ┃ ┣ 📜 cleaned_PS_test.csv       # Preprocessed test dataset  
- ┃ ┣ 📜 fasttext.ipynb            # FastText-based classification  
- ┃ ┣ 📜 indic_bert.ipynb          # IndicBERT fine-tuning  
- ┃ ┣ 📜 indic_bert_nohashtag.ipynb # IndicBERT without hashtags  
- ┃ ┣ 📜 muril_nohashtag.ipynb     # MuRIL without hashtags  
- ┃ ┣ 📜 preprocess.ipynb          # Data preprocessing pipeline  
- ┃ ┣ 📜 PS_train.csv              # Original training dataset  
- ┃ ┣ 📜 PS_dev.csv                # Original validation dataset  
- ┃ ┣ 📜 PS_test_without_labels.csv # Test dataset without labels  
- ┃ ┣ 📜 submission.csv            # Final submission file  
- ┃ ┣ 📜 svm_sbert.ipynb           # SVM model using SBERT embeddings  
- ┃ ┣ 📜 tamil_sbert_nohashtag.ipynb # Tamil SBERT without hashtags  
+  ┣ 📜 .gitignore  
+  ┣ 📜 bert_base_cased.ipynb     # Fine-tuned BERT-base-cased for classification  
+  ┣ 📜 cleaned_PS_train.csv      # Preprocessed training dataset  
+  ┣ 📜 cleaned_PS_dev.csv        # Preprocessed validation dataset  
+  ┣ 📜 cleaned_PS_test.csv       # Preprocessed test dataset  
+  ┣ 📜 fasttext.ipynb            # FastText-based classification  
+  ┣ 📜 indic_bert.ipynb          # IndicBERT fine-tuning  
+  ┣ 📜 indic_bert_nohashtag.ipynb # IndicBERT without hashtags  
+  ┣ 📜 muril_nohashtag.ipynb     # MuRIL without hashtags  
+  ┣ 📜 preprocess.ipynb          # Data preprocessing pipeline  
+  ┣ 📜 PS_train.csv              # Original training dataset  
+  ┣ 📜 PS_dev.csv                # Original validation dataset  
+  ┣ 📜 PS_test_without_labels.csv # Test dataset without labels  
+  ┣ 📜 submission.csv            # Final submission file  
+  ┣ 📜 svm_sbert.ipynb           # SVM model using SBERT embeddings  
+  ┣ 📜 tamil_sbert_nohashtag.ipynb # Tamil SBERT without hashtags  
 ```
 
 ## 🏆 Models Used  
