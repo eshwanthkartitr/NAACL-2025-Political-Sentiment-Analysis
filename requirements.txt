@@ -1,0 +1,8 @@
+transformers
+pandas
+scikit-learn
+torch
+tqdm
+demoji
+fasttext
+datasets
