@@ -68,5 +68,11 @@ Execute the respective notebooks (`.ipynb`) for training different models.
 ## 📧 Contact  
 For any queries, feel free to reach out.
 
+- [@nithishariyha](https://github.com/ariyha)  
+- [@eshwanthkarti](github.com/eshwanthkartitr)  
+- [@vikash](https://github.com/vikash22092004)
+- [@yeshwanthbalaji](https://github.com/YeshwanthBalaji2022)
+
+
 ---
 
