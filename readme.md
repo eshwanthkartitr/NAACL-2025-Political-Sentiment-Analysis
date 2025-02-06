@@ -69,6 +69,10 @@ Execute the respective notebooks (`.ipynb`) for training different models.
 - Different models were fine-tuned for classification based on their respective architectures.  
 - Due to dataset scarcity SVM based methods performed better
 
+## ⚠️ AI-Generated Code Disclosure
+Some boilerplate code, such as model training scripts and data preprocessing utilities, were generated using AI-assisted tools to streamline development. However, all model training, hyperparameter tuning, and evaluations were manually implemented and reviewed to ensure correctness.
+
+
 ## 📧 Contact  
 For any queries, feel free to reach out.
 ---
