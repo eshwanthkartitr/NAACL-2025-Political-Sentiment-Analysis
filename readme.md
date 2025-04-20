@@ -30,13 +30,16 @@ The best-performing model in this project is **LaBSE + SVM**, which achieved the
  ┣ 📜 fasttext.ipynb                # FastText-based classification
  ┣ 📜 preprocess.ipynb              # Data preprocessing pipeline
  ┣ 📜 requirements.txt              # Python requirements
- ┗ 📜 svm.ipynb                     # SVM model using transformer embeddings  
+ ┣ 📜 svm.ipynb                     # SVM model using transformer embeddings  
+ ┗ 📜 ensemble.ipynb                # Final trials using a combination of embeddings   
+ 
 ```
 
 
 ## 🏆 Models Used  
 
-- **LaBSE + SVM (Best Model)**
+- **LaBSE + IndicBERT + TF-IDF + Attention (Best Performing method)**
+- **LaBSE + SVM (Best Model in single category)**
 - **BERT-base-cased**  
 - **IndicBERT**  
 - **MuRIL**  
