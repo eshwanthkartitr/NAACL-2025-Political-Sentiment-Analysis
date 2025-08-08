@@ -79,4 +79,4 @@ Some boilerplate code, such as model training scripts and data preprocessing uti
 ## 📧 Contact  
 For any queries, feel free to reach out.
 ---
-
+eshwanthkartitr@gmail.com
